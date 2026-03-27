@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services - Gym Website</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav class="main-nav">
+            <a href="index.html" class="logo">
+                <img src="images/M.png" alt="Gym Logo">
+            </a>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="nav-right">
+                <a href="signin.html" class="btn-signin">Sign In</a>
+                <a href="services.html" class="btn-join">Join Now</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="services">
+            <h1>Our Services</h1>
+            
+            <div class="services-grid">
+                <div class="service-item">
+                    <h2>Personal Training (1-on-1)</h2>
+                    <p>Get personalized attention with our certified trainers. We'll create a custom fitness plan tailored to your goals, whether it's weight loss, muscle gain, or improving overall health.</p>
+                    <a href="booking.html?service=personal" class="btn-submit">Choose Plan</a>
+                </div>
+                <div class="service-item">
+                    <h2>Small Group Training</h2>
+                    <p>Join a small group for motivating workouts in a supportive environment. Our group sessions combine the benefits of personal training with the energy of group dynamics.</p>
+                    <a href="booking.html?service=group" class="btn-submit">Choose Plan</a>
+                </div>
+                <div class="service-item">
+                    <h2>Nutrition Coaching</h2>
+                    <p>Our nutrition coaches will help you develop healthy eating habits. From meal planning to understanding macronutrients, we'll guide you towards sustainable nutrition.</p>
+                    <a href="booking.html?service=nutrition" class="btn-submit">Choose Plan</a>
+                </div>
+            </div>
+            
+            <h2>Pricing Tiers</h2>
+            <div class="pricing-grid">
+                <div class="pricing-tier">
+                    <h3>Basic Membership</h3>
+                    <div class="price">$29/month</div>
+                    <ul>
+                        <li>Access to gym facilities</li>
+                        <li>Group fitness classes</li>
+                        <li>Basic equipment usage</li>
+                        <li>24/7 access</li>
+                    </ul>
+                    <a href="membership.html?plan=Basic Membership" class="btn-submit">Choose Plan</a>
+                </div>
+                <div class="pricing-tier">
+                    <h3>Premium Membership</h3>
+                    <div class="price">$59/month</div>
+                    <ul>
+                        <li>All Basic features</li>
+                        <li>2 Personal Training sessions/month</li>
+                        <li>Nutrition consultation</li>
+                        <li>Access to sauna and recovery area</li>
+                    </ul>
+                    <a href="membership.html?plan=Premium Membership" class="btn-submit">Choose Plan</a>
+                </div>
+                <div class="pricing-tier">
+                    <h3>Elite Membership</h3>
+                    <div class="price">$99/month</div>
+                    <ul>
+                        <li>All Premium features</li>
+                        <li>Unlimited Personal Training</li>
+                        <li>Custom nutrition plan</li>
+                        <li>Priority booking and VIP perks</li>
+                    </ul>
+                    <a href="membership.html?plan=Elite Membership" class="btn-submit">Choose Plan</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

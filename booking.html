@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Membership - Gym Website</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav class="main-nav">
+            <a href="index.html" class="logo">
+                <img src="images/M.png" alt="Gym Logo">
+            </a>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="nav-right">
+                <a href="signin.html" class="btn-signin">Sign In</a>
+                <a href="services.html" class="btn-join">Join Now</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+       
+        <section id="booking">
+            <h2>Book a Session</h2>
+            <form id="booking-form">
+                <div class="form-group">
+                    <label for="service">Service Type:</label>
+                    <select id="service" required>
+                        <option value="">Select Service</option>
+                        <option value="personal">Personal Training (1-on-1)</option>
+                        <option value="group">Small Group Training</option>
+                        <option value="nutrition">Nutrition Coaching</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="date">Preferred Date:</label>
+                    <input type="date" id="date" required>
+                </div>
+                <div class="form-group">
+                    <label for="time">Preferred Time:</label>
+                    <select id="time" required>
+                        <option value="">Select Time</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn-submit">Book Session</button>
+            </form>
+            <div id="confirmation" style="display:none; margin-top: 20px; color: #1ddcbd; font-weight: bold;">Booking confirmed! We'll see you then.</div>
+        </section>
+    </main>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
